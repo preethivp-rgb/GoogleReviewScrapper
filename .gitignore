@@ -1,0 +1,23 @@
+# Secrets / credentials
+.env
+
+# Build artifacts
+target/
+
+# Scraped data, reports, logs (may contain real reviewer names/business data)
+output/
+
+# Batch input may contain real practice IDs/business URLs — exclude the actual
+# data file but keep any checked-in template separately if needed.
+input/*.xlsx
+
+# Chrome automation profile (local machine only)
+ChromeAutomationProfile/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Claude Code local state
+.claude/
